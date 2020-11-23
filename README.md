@@ -1,9 +1,9 @@
 # sdedit
-How to build Quick Sequence Diagram Editor (QSD) with Maven 3 and run it:
+How to build Quick Sequence Diagram Editor (QSD) with Maven 3 (Java 8) and run it:
 
-1. Get QSD-lib and QSD from github.
-2. cd to the QSD-lib directory
-3. type: mvn install
-4. cd to the QSD directory
-5. type: mvn package
-6. type: java -jar target/QSD-4.2.one-jar.jar 
+1. Clone this repository.
+2. $ cd ~/QSD-lib
+3. $ mvn install
+4. $ cd ~/QSD
+5. $ mvn package
+6. $ java -jar ~/QSD/target/QSD-4.2.one-jar.jar 
